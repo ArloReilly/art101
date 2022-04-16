@@ -22,3 +22,8 @@ p#boat {
 li#bike{
   list-style: circle;
 }
+h2 {
+  color: #a56d1d;
+  font-size: 200%;
+  font-family: cursive;
+}
