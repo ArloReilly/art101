@@ -19,3 +19,6 @@ p#boat {
 #img {
   width: 400px;
 }
+a#bike{
+  list-style: circle;
+}
