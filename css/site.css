@@ -4,7 +4,7 @@ h1 {
   font-family: cursive;
 }
 p#boat {
-  color: red;
+  color: blue;
   font-family: fantasy;
   text-indent: 20px;
   margin-left: 10px;
@@ -14,4 +14,7 @@ p#boat {
   width: 1000px;
   min-height: 1000px;
   padding: 15px;
+}
+#img {
+  width: 500px;
 }
