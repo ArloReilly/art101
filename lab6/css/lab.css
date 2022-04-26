@@ -1,17 +1,17 @@
 h1 {
-  color: pink;
+  color: #dd1f91;
   font-size: 400%;
   font-family: cursive;
 }
 p#boat {
-  color: pink;
+  color: #dd1f91;
   font-family: sans-serif;
   line-height: 1.5;
   text-indent: 20px;
   margin-left: 10px;
 }
 #content {
-  background-color: grey;
+  background-color: #969596;
   width: 1400px;
   min-height: 1400px;
   padding: 15px;
@@ -24,13 +24,13 @@ p#boat {
 
 }
 h2 {
-  color: pink;
+  color: #dd1f91;
   width: 400px;
   font-size: 250%;
   font-family: cursive;
 }
 h3 {
-  color: pink;
+  color: #dd1f91;
   width: 300px;
   font-size: 200%;
   font-family: cursive;
