@@ -1,17 +1,17 @@
 h1 {
-  color: #dd1f91;
+  color: #a56d1d;
   font-size: 400%;
   font-family: cursive;
 }
 p#boat {
-  color: #dd1f91;
+  color: #316e57;
   font-family: sans-serif;
   line-height: 1.5;
   text-indent: 20px;
   margin-left: 10px;
 }
 #content {
-  background-color: #969596;
+  background-color: ivory;
   width: 1400px;
   min-height: 1400px;
   padding: 15px;
@@ -24,13 +24,13 @@ p#boat {
 
 }
 h2 {
-  color: #dd1f91;
+  color: #a56d1d;
   width: 400px;
   font-size: 250%;
   font-family: cursive;
 }
 h3 {
-  color: #dd1f91;
+  color: #a56d1d;
   width: 300px;
   font-size: 200%;
   font-family: cursive;

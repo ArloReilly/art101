@@ -6,13 +6,13 @@
  **/
 
  // Define Variables
- myTransport = ["Toyota Prius", "Bike", "Skateboard", "RidesfromFriends", "SlipnSlide"];
+ myTransport = ["Rav4", "Tricycle", "Skateboard", "Legs"];
 
  myRide = {
    make: "Toyota",
-    model: "Prius",
-    color: "Red",
-    year: 2017,
+    model: "Rav4",
+    color: "Silver",
+    year: 2020,
     age: function() {
         return 2022 - age;
     }
@@ -20,5 +20,5 @@
 
  // output
  document.writeln("Kinds of of Transport I use:", myTransport, "</br>");
- document.writeln("MyMainRide: <pre>",
+ document.writeln("My Ride er Die: <pre>",
     JSON.stringify(myRide, null, '\t'), "</pre>");
