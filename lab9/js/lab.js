@@ -9,7 +9,7 @@
 let outputEl = document.getElementById('output');
 
 //ocreating a new element assigning it to new1El and changing its html
-let new1El = dicument.createElement('p');
+let new1El = document.createElement('p');
 new1El.innerHTML = 'Do you ever feel';
 
 // creating another new element and assigning it to new2El and changing its html
