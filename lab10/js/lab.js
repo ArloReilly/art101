@@ -17,7 +17,7 @@
    var inputEl = document.getElementById("my-input");
    var name = inputEl.value;
    console.log("name:", name);
- 	// Use this input to change the text from ‘Hello, World!’ to ‘Hello’ + the user’s name
+ 	// Use this input to change the text from ‘Heyyyyooo!’ to ‘yo yo yo’ + the user’s name
    // Find the element
  	var goodbyeWorld = document.getElementById("title");
    console.log("title:", goodbyeWorld);
