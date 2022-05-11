@@ -5,18 +5,26 @@
  * License:   Public Domain
  **/
 
- //find the element
- var button = document,getElementById("my-button");
- console.log("Button", buttonEl);
- //Create an event handler within the JS file that listens for a button click.
- bottonEl.oddEventlistener("click", function(){
+ var buttonEl = document.getElementById("my-button");
+console.log("Button:", buttonEl);
 
- //When the button is pushed, prompt the user to input their name with the prompt() function.
- var name = window.promt("what is ypout name?");
- console.log ("name:"name);
- //Use this input to change the text from ‘Hello, World!’ to ‘Hello’ + the user’s name
+// Create an event handler within the JS file that listens for a button click.
+buttonEl.addEventListener("click", function(){
+	console.log("Click");
+	// prompt the user to input their name with the prompt() function.
+	var name = window.prompt("What is your name?");
+  console.log("name:", name);
+	// Use this input to change the text from ‘Hello, World!’ to ‘Hello’ + the user’s name
+  // Find the element
+	var goodbyeWorld = document.getElementById("title");
+  console.log("title:", goodbyeWorld);
+  goodbyeWorld.innerHTML = "Hiya, " + name;
+
+});
 
 
 
 
- });
+
+
+ 
