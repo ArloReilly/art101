@@ -6,22 +6,21 @@
  **/
 
 
-// find the button element
-buttonEl = document.getElementById("my-button");
-console.log("button element:", buttonEl);
-// find the form element
-inputEl = document.getElementById("user-name");
-console.log("input element:", inputEl);
-// find output element
-outputEl = document.getElementById("output");
-console.log("output element:", outputEl);
+ var buttonEl = document.getElementById("my-button");
+ console.log("Button:", buttonEl);
 
-// add an event listener to button
-buttonEl.addEventListener("click", function(){
-  // get value from name element
-  var userName = inputEl.value;
-  // modify value - either sort or shuffle
-  var newName = toTitleCase(reorderUserName(userName));
-  // put value in output element
-  outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
+ // Create an event handler within the JS file that listens for a button click.
+ buttonEl.addEventListener("click", function(){
+ 	console.log("Click");
+ 	// prompt the user to input their name with the prompt() function.
+ 	//var name = window.prompt("What is your name?");
+   var inputEl = document.getElementById("my-input");
+   var name = inputEl.value;
+   console.log("name:", name);
+ 	// Use this input to change the text from ‘Hello, World!’ to ‘Hello’ + the user’s name
+   // Find the element
+ 	var goodbyeWorld = document.getElementById("title");
+   console.log("title:", goodbyeWorld);
+   goodbyeWorld.innerHTML = "Hiya, " + name;
+
 });
