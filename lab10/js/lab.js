@@ -21,6 +21,6 @@
    // Find the element
  	var goodbyeWorld = document.getElementById("title");
    console.log("title:", goodbyeWorld);
-   goodbyeWorld.innerHTML = "Hiya, " + name;
+   goodbyeWorld.innerHTML = "Yo yo yo, " + name;
 
 });
