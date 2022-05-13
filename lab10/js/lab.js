@@ -13,7 +13,7 @@ function sortUserName() {
 //lab7
 
 function sortUserName() {
-  var userName = window.prompt("Id just love to know and fix your name")
+  var userName = window.prompt("Id just love to know and fix your name");
   console.log("userName =", userName);
 
   //split string to array
@@ -35,5 +35,5 @@ function sortUserName() {
 
 //Output
 
-document.writeln("Yo yo yo! Well looky I made your name better, ")
+document.writeln("Yo yo yo! Well looky I made your name better, ");
   sortUserName(), "</br>");
