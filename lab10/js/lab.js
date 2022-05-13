@@ -5,16 +5,16 @@
  * License:   Public Domain
  **/
 
-document.getElement("my-button").addEventListener("click", sortUserName);
+document.getElementById("my-button").addEventListener("click", sortUserName);
 function sortUserName() {
-  document.getElementById("output").inner = Date();
+  document.getElementById("output").innerHTML = Date();
 }
 
 //lab7
 
 function sortUserName() {
   var userName = window.prompt("Id just love to know and fix your name")
-  consoel.log("userName =", userName);
+  console.log("userName =", userName);
 
   //split string to array
 
@@ -24,23 +24,16 @@ function sortUserName() {
   //sort array
 
   var nameArraySort = nameArray.sort();
-  console.log("nameArraySort=", nameArraySort);
+  console.log("nameArraySort =", nameArraySort);
 
   //join array and string back together
 
-  var nameSorted = nameArraySorted.join('');
+  var nameSorted = nameArraySort.join('');
   console.log("nameSorted =", nameSorted);
   return nameSorted;
 }
 
 //Output
 
-document.writeln("Yo yo yo! Well looky I made your name better, "
+document.writeln("Yo yo yo! Well looky I made your name better, ")
   sortUserName(), "</br>");
-
-
-
-
-
-
- 
