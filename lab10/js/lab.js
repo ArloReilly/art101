@@ -23,7 +23,7 @@ function sortUserName() {
 
   //sort array
 
-  var nameArraySort = nameArray.sort('');
+  var nameArraySort = nameArray.sort();
   console.log("nameArraySort =", nameArraySort);
 
   //join array and string back together
@@ -35,5 +35,5 @@ function sortUserName() {
 
 //Output
 
-document.writeln("Yo yo yo! Well looky I made your name better,");
+document.writeln("Yo yo yo! Well looky I made your name better,",
   sortUserName(), "</br>");
