@@ -35,5 +35,5 @@ function sortUserName() {
 
 //Output
 
-document.writeln("Yo yo yo! Well looky I made your name better,",
+document.writeln("Yo yo yo! Well looky I made your name better," +
   sortUserName(), "</br>");
