@@ -5,7 +5,7 @@
  * License:   Public Domain
  **/
  $("#butt1").click(function(){
- 	$("#boat").toggleClass("boat");
+ 	$("#boat").toggleClass("selected");
    var name = $("#my-input").val();
    $("h1").html("Hi, " + name);
  })

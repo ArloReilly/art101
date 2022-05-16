@@ -3,6 +3,9 @@ h1 {
   font-size: 400%;
   font-family: cursive;
 }
+.selected{
+  color: #c42fe2;
+}
 p#boat {
   color: #316e57;
   font-family: sans-serif;
