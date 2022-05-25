@@ -10,7 +10,6 @@
 function snapCracklePop(maxNums, factorObj){
   //iterate ver all of out numbers
   for (var num=0; num<maxNums; num++) {
-}
 //reset output string
 var outputStr = "";
 //iterate over the factors we got from HTML
