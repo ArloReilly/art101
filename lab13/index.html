@@ -19,10 +19,33 @@
 		<h2>Snap, Cracle, Pop</h2>
 		<div id="input">
 			How high you wanna go? <input type="number" min=0 max="1000" id="max"><br>
-			
-
-		<button id="button">Sort</button>
-		<div id="output">
+			What factors do you want to print what?<br>
+			<table>
+				<tr>
+					<th>Factor</th>
+					<th>Prints What?</th>
+			</tr>
+			<tr>
+				<td><input type="number" min=0 max="23" id="num0"></td>
+				<td><input type="text" id="text0"></td>
+		</tr>
+		<tr>
+			<td><input type="number" min=0 max="23" id="num1"></td>
+			<td><input type="text" id="text1"></td>
+		</tr>
+		<tr>
+			<td><input type="number" min=0 max="23" id="num2"></td>
+			<td><input type="text" id="text2"></td>
+		</tr>
+		<tr>
+			<td><input type="number" min=0 max="23" id="num3"></td>
+			<td><input type="text" id="text3"></td>
+		</tr>
+	</table>
+	<button id="submit">Run</button>
+</div>
+	<h3>Output</h3>
+	<div id="output"></div>
 
 
 		</div>
