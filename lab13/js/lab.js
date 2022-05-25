@@ -9,7 +9,7 @@
 //loops over the numbers and outputs the number and the matching text for factors
 function snapCracklePop(maxNums, factorObj){
   //iterate ver all of out numbers
-  for (var num=0; num<maxNums; num++)
+  for (var num=0; num<maxNums; num++) {
 }
 //reset output string
 var outputStr = "";
