@@ -37,3 +37,4 @@ document.getElementById("submit").addEventListner("click", function() {
   if (! max) {
     reportError("You gotta gimme a max");
   }
+}
