@@ -30,11 +30,4 @@ outputToPage(num.toString() + outputStr)
 function reportError(str){
   outputEl.innerHTML = "<div class= 'error'>" + str + "</div";
 }
-
-document.getElementById("submit").addEventListner("click", function() {
-  var max = document.getElementById("max").value;
-  console.log("max", max)
-  if (! max) {
-    reportError("You gotta gimme a max");
-  }
 }
