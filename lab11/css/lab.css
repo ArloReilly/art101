@@ -42,3 +42,24 @@ h3 {
   font-size: 200%;
   font-family: cursive;
 }
+#challenges{
+  color: #b58cd2;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+#problems{
+  color: #3acc70;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+#results{
+  color: #d61e1e;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-indent: 20px;
+  margin-left: 10px;
+}
